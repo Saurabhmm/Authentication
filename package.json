@@ -1,0 +1,22 @@
+{
+  "name": "nodejsapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Saurabh Mahajan",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.11",
+    "mongoose-paginate-v2": "^1.4.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.14",
+    "simple-crypto-js": "^3.0.0"
+  }
+}
